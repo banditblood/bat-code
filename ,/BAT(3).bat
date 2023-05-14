@@ -1,6 +1,6 @@
 color a
 @echo off
 :loop
-arp -a
+tree
 timeout /t 5 /nobreak > nul
 goto loop
